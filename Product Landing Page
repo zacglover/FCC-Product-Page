@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html>
+
+<style>
+
+    body {
+      font-family: helvetica;
+      background-color: white;
+      margin: 0px;
+    }
+
+    header {
+      position: fixed;
+      background-color: white;
+      width: 100%;
+      z-index: 3;
+    }
+  
+  #header-img {
+    width: 50px;
+    height: auto;
+  }
+  
+  @media (max-width: 600px) {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+    #nav-bar ul {
+      display: flex;
+      margin: -30px 2px 10px;
+      padding: 0px;
+      justify-content: space-around;
+    }
+  
+  #main-menu {
+    font-style: helvetic;
+    font-weight: bold;
+    margin: 10px;
+    width: 100%; 
+  }
+  
+  #main-menu a {
+    display: block;
+    text-decoration: none;
+  }
+  
+   li {
+    list-style: none;
+    display: inline-block;
+    font-color: black
+  }
+  
+  li a:link {
+    text-decoration: none;
+    color: black; 
+  }
+  
+  li a:hover {
+    color: blue;
+    
+  }
+  
+  li a:visited {
+    color: none;
+  }
+  
+  li a:active {
+    color: none;
+  }
+  
+  form {
+    text-align: center;
+    padding-top: 5%;
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  #email {
+    margin-top: 7px;
+    width: 20%;
+    text-align: center;
+  }
+  
+  #submit {
+    color: white;
+    background-color: #007fff;
+    border-radius: 12px;
+    padding: 5px 10px 5px 10px;
+    margin-top: 7px;
+  }
+
+    #home-page {
+        background-color: #f0f0f0;
+        text-align: center;
+    }
+  
+  #home-image {
+    width: 60%;
+    height: 60%;
+    margin-top: -15%;
+    margin-bottom: -9%;
+  }
+
+    h1 {
+        font-size: 70px;
+    }
+
+    #watch-logo {
+      margin-top: 70px;
+      margin-bottom: -40px;
+      padding-right: 50px;
+    }
+
+    #intro-info {
+        align: center;
+        text-align: center;
+    }
+
+    #intro-paragraph {
+        font-size: 25px;
+        font-color: black;
+        font-weight: bold;
+    }
+  
+  #video {
+    margin-bottom: 5%;
+  }
+    
+  #dynamic-info {
+    position: absolute;
+    margin: 0 auto;
+    color: white;
+  }
+    
+  h2 {
+    font-size: 5em;
+    margin-left: 5%;
+    margin-bottom: -1%;
+  }
+
+  #dynamic-feature {
+    font-color: white;
+    font-size: 25px;
+    margin-left: 5%;
+  }
+  
+  #timepiece-info {
+    position: absolute;
+    margin: 0 auto;
+    color: black;
+  }
+  
+  h3 {
+    font-size: 5em;
+    margin-left: 5%;
+    margin-top: 90%;
+    margin-bottom: -1%;
+  }
+  
+  #timepiece-feature {
+    font-color: black;
+    font-size: 25px;
+    margin-left: 5%;
+  }
+  
+   h4 {
+    font-size: 3em;
+    text-align: center;
+  }
+  
+  #models-img {
+    width: 100%;
+    height: 500px;
+  }
+  
+  #models-div {
+    background color: #f0f0f0;
+  }
+  
+</style>
+  
+<body>
+
+<header id="header">
+<div>
+<img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/600px-Apple_logo_black.svg.png" alt="Apple logo">
+</div>
+
+<nav id="nav-bar">
+    <ul id="main-menu">
+        <li><a id="home-tab" class="nav-link" href="#home">Home</a></li>
+        <li><a id="features-tab" class="nav-link" href="#features">Features</a></li>
+        <li><a id="models-tab" class="nav-link" href="#models">Models</a></li>
+    </ul>
+</nav>
+  
+</header>
+
+<section>
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+APPLE WATCH SERIES 5<br>
+<input id="email" type="email" name="email" placeholder="Enter your email address to receive updates"><br>
+<input id="submit" type="submit" value="Submit">
+</form>
+  </section>
+  
+<main
+
+<section id="home">
+<div id="home-page">
+<img id="home-image" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/4/0/40/alu/40-alu-silver-sport-white-nc-s4-1up?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1539189668420" alt="Apple Watch 5 Reveal">
+</div>
+</section>
+
+<section>
+<div id="intro-info">
+<img id="watch-logo" src="https://cdn2.macworld.co.uk/cmsdata/features/3681135/how_to_type_apple_logo_1200a.jpg" alt="Apple Watch Series 5 Logo" style="height: 15%; width: 15%;">
+<h1>Transformational</h1>
+<p id="intro-paragraph">Apple Watch Series 5. Fundamentally redesigned and<br> re-engineered to help you be more adaptive, efficient, and connected.</p><br>
+<iframe id="video" width="1100em" height="500em" src="https://www.youtube.com/embed/n1elRfYEnl8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+</section>
+
+<section id="features">
+<div id="feature-info1">
+    <div id="dynamic-info">
+<h2>Evolutionary</h2>
+<p id="dynamic-feature">The most adaptable Apple Watch yet.<br> Rapidly adapt to changing environmental conditions.<br>Apple Watch Series 5 acclimatizes itself and<br> your body to every condition you encounter.</p><br>
+  </div>
+<img id="dynamic-img" src="https://media.idownloadblog.com/wp-content/uploads/2018/09/Apple-Watch-Series-4-complications-002.jpg" alt="Apple Watch Series 5 Dynamic Screen">
+</div>
+</section>
+
+<section>
+<div id="feature-info2">
+  <div id="timepiece-info">
+<h3>Temporal</h3>
+    <p id="timepiece-feature">Don't just check the time, control it.<br> Purposely and selectively travel forwards or backwards in time.<br> Apple Watch Series 5 redefines what a timepiece really is.</p>
+  </div>
+<img id="timepiece-img" src="https://cdn.vox-cdn.com/thumbor/WvgQ6qItdMmVhtRg3Ht-ywN9TzI=/0x0:1360x992/1200x800/filters:focal(572x388:788x604)/cdn.vox-cdn.com/uploads/chorus_image/image/62368380/ipod_nano_watch_concept_juxtapose.1542741969.jpg" alt="Apple Watch Series 5 Time Machine" style="width: 100%;">
+</div>
+</section>
+  
+
+<section id="models">
+  <div id="models-div">
+    <h4>There's an apple watch for everyone.</h4>
+    <img id="models-img" src="https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP778/SP778-apple-watch-series-4.jpg" alt="Apple Watch Series 5 Models">
+  </div>
+</section> 
+  
+
+</main>
+
+
+<footer>
+<!-- enter footer here -->
+</footer>
+
+</body>
+
+</html>
